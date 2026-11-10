@@ -28,7 +28,7 @@ It provides an autonomous way for individuals (particularly parents, estate plan
 ```
 ┌────────────────────────────────────────────────────────┐
 │                   CREATOR (Desktop)                    │
-│   • Guided 14-form templates (Medical, Will, Asset)    │
+│   • 7 Core Life Wizards · 13 Guided Templates          │
 │   • Client-side encryption into .clox archive          │
 │   • Mobile Upload Bridge (document camera capture)     │
 │   • Fiat-paid prepaid Vouchers (zero crypto required)  │
@@ -58,8 +58,20 @@ It provides an autonomous way for individuals (particularly parents, estate plan
 - **Zero-Custody TEE Decryption:** Encryption keys remain locked inside an Oasis Sapphire hardware Trusted Execution Environment (TEE). Neither Chronolox developers, validators, nor cloud hosts can inspect secret contents.
 - **Wallet-Free Onboarding via Credits & Vouchers:** Non-technical creators purchase closed-loop Vouchers using standard credit cards (Stripe). Heirs require zero cryptocurrency, zero gas tokens, and zero wallet setups to unlock their inheritance.
 - **Append-Only Time-Locked Secret Journal:** Creators can continually append chronological, encrypted updates and personal notes over decades without breaking sealed archive hashes.
-- **Public Notary Timestamping:** Quantum-resistant SHA3-512 hashes anchored on Polygon for prior art, intellectual property escrow, and document verification.
+- **Public Notary Timestamping (Proof of Existence):** Quantum-resistant SHA3-512 hashes anchored on Polygon for independent proof of existence, prior art documentation, and tamper-proof verification without revealing file contents.
 - **Century-Grade Media Support:** Full support for dual USB drives and ISO/IEC 16963 M-DISC archival optical media for 100+ year data retention.
+
+---
+
+### Selected Public Repositories
+
+We publish selected Chronolox repositories here to support technical transparency, architecture inspection, specification verification, and community participation:
+
+| Repository | Role | Purpose |
+| :--- | :--- | :--- |
+| [**`specs`**](https://github.com/Chronolox/specs) | Architecture & Security Specification | Full protocol specification, cryptographic boundaries, consensus mechanics, and the source code escrow failsafe. |
+| [**`releases`**](https://github.com/Chronolox/releases) | Binary Releases & Signatures | Official pre-compiled binaries (`chronolox-heir`, `chronolox-cli`, `secret-maker`), release verification GPG keys, and checksum ledgers. |
+| [**`.github`**](https://github.com/Chronolox/.github) | Community & Security Governance | Organization profile, responsible disclosure policy (`SECURITY.md`), and issue templates. |
 
 ---
 
@@ -69,9 +81,9 @@ During our commercial beta phase, pre-compiled, verifiable release binaries are 
 
 | Artifact | Target Audience | Primary Function | Distribution |
 | :--- | :--- | :--- | :--- |
-| **`chronolox-heir`** | Heirs & Family Members | Portable standalone reader to verify and unlock `.clox` capsules client-side without gas or crypto. | [Releases](https://github.com/chronolox/releases) |
-| **`chronolox-cli`** | Engineers & Power Users | Cross-platform terminal tool for scriptable secret creation, capsule inspection, and notary anchoring. | [Releases](https://github.com/chronolox/releases) |
-| **`secret-maker`** | Creators & Test Cohort | Desktop studio for building 3-layer capsules, filling form templates, and formatting archival USBs. | [Releases](https://github.com/chronolox/releases) |
+| **`chronolox-heir`** | Heirs & Family Members | Portable standalone reader to verify and unlock `.clox` capsules client-side without gas or crypto. | [Releases](https://github.com/Chronolox/releases) |
+| **`chronolox-cli`** | Engineers & Power Users | Cross-platform terminal tool for scriptable secret creation, capsule inspection, and notary anchoring. | [Releases](https://github.com/Chronolox/releases) |
+| **`secret-maker`** | Creators & Test Cohort | Desktop studio for building 3-layer capsules, filling form templates, and formatting archival USBs. | [Releases](https://github.com/Chronolox/releases) |
 
 *All release binaries are position-independent executables (PIE), stripped, compressed, and signed with the official Chronolox release key.*
 
@@ -89,14 +101,24 @@ Chronolox operates under a proprietary commercial license during its active beta
 
 ---
 
+### Security & Responsible Disclosure
+
+If you believe you have discovered a security vulnerability in the Chronolox protocol, smart contracts, client cryptography, or binary distributions, please report it privately:
+
+- **Email:** [`security@chronolox.com`](mailto:security@chronolox.com)
+- **Policy:** Read our complete [Security Policy (SECURITY.md)](https://github.com/Chronolox/.github/blob/main/SECURITY.md).
+- **Please do NOT report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+
+---
+
 ### Join the Beta & Community
 
 We are actively recruiting **beta testers** and **founding contributors** (marketing, community leaders, legal/estate advisors, and technical reviewers):
 
 - **Test the Protocol:** Request early beta access and receive a complimentary test Voucher code at [chronolox.com/community](https://chronolox.com/community).
 - **Contribute & Collaborate:** Explore founding contributor roles and our on-chain contributor framework at [chronolox.com/contributors](https://chronolox.com/contributors).
-- **Report Issues & Feedback:** Submit usability feedback, 55+ accessibility observations, and technical bug reports via our public [Community Issue Tracker](https://github.com/chronolox/community/issues).
-- **Public Discussions:** Join architecture, estate-planning, and security discussions in [GitHub Discussions](https://github.com/chronolox/community/discussions).
+- **Community Chat:** Join our public discussion channel on Telegram at [t.me/chronolox_chat](https://t.me/chronolox_chat).
+- **Feedback & Issues:** Submit usability feedback, documentation corrections, and bug reports through [specs issues](https://github.com/Chronolox/specs/issues) and [releases issues](https://github.com/Chronolox/releases/issues).
 
 ---
 
