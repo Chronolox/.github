@@ -1,5 +1,12 @@
 <div align="center">
 
+<a href="https://chronolox.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chronolox/.github/main/profile/assets/chronolox-logo-dark.png">
+    <img src="https://raw.githubusercontent.com/Chronolox/.github/main/profile/assets/chronolox-logo-light.png" alt="Chronolox — hourglass emblem and wordmark" width="420">
+  </picture>
+</a>
+
 # Chronolox Protocol
 
 **Decentralized Digital Inheritance & Time-Locked Hardware-Grade Secrets**
