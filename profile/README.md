@@ -76,21 +76,25 @@ We publish selected Chronolox repositories here to support technical transparenc
 
 | Repository | Role | Purpose |
 | :--- | :--- | :--- |
+| [**`heir`**](https://github.com/Chronolox/heir) | Heir Unlocker Desktop Application | Standalone client application to verify and unlock `.clox` capsules client-side without gas or wallet. |
+| [**`cli`**](https://github.com/Chronolox/cli) | Command-Line Interface | Cross-platform terminal tool for scriptable secret creation, capsule inspection, and notary anchoring. |
+| [**`secret-maker`**](https://github.com/Chronolox/secret-maker) | Secret Maker Desktop Application | Desktop studio for building 3-layer capsules, filling form templates, and formatting archival USBs. |
+| [**`relayer`**](https://github.com/Chronolox/relayer) | Relayer Service & Appliance | Backend relay daemon (gasless transactions, voucher settlement, notary) and bootable appliance ISO. |
 | [**`specs`**](https://github.com/Chronolox/specs) | Architecture & Security Specification | Full protocol specification, cryptographic boundaries, consensus mechanics, and the source code escrow failsafe. |
-| [**`releases`**](https://github.com/Chronolox/releases) | Binary Releases & Signatures | Official pre-compiled binaries (`chronolox-heir`, `chronolox-cli`, `secret-maker`), release verification GPG keys, and checksum ledgers. |
 | [**`.github`**](https://github.com/Chronolox/.github) | Community & Security Governance | Organization profile, responsible disclosure policy (`SECURITY.md`), and issue templates. |
 
 ---
 
 ### Public Binaries & Tools
 
-During our commercial beta phase, pre-compiled, verifiable release binaries are distributed via GitHub Releases:
+During our commercial beta phase, pre-compiled, verifiable release binaries and appliances are distributed via each repository's GitHub Releases:
 
 | Artifact | Target Audience | Primary Function | Distribution |
 | :--- | :--- | :--- | :--- |
-| **`chronolox-heir`** | Heirs & Family Members | Portable standalone reader to verify and unlock `.clox` capsules client-side without gas or crypto. | [Releases](https://github.com/Chronolox/releases) |
-| **`chronolox-cli`** | Engineers & Power Users | Cross-platform terminal tool for scriptable secret creation, capsule inspection, and notary anchoring. | [Releases](https://github.com/Chronolox/releases) |
-| **`secret-maker`** | Creators & Test Cohort | Desktop studio for building 3-layer capsules, filling form templates, and formatting archival USBs. | [Releases](https://github.com/Chronolox/releases) |
+| **`chronolox-heir`** | Heirs & Family Members | Portable standalone reader to verify and unlock `.clox` capsules client-side without gas or crypto. | [Heir Releases](https://github.com/Chronolox/heir/releases) |
+| **`chronolox-cli`** | Engineers & Power Users | Cross-platform terminal tool for scriptable secret creation, capsule inspection, and notary anchoring. | [CLI Releases](https://github.com/Chronolox/cli/releases) |
+| **`secret-maker`** | Creators & Test Cohort | Desktop studio for building 3-layer capsules, filling form templates, and formatting archival USBs. | [Secret Maker Releases](https://github.com/Chronolox/secret-maker/releases) |
+| **`chronolox-relayer`** | Operators & Node Hosts | Backend relay service daemon (Linux amd64) and bootable appliance ISO for gasless operations and notary services. | [Relayer Releases](https://github.com/Chronolox/relayer/releases) |
 
 *All release binaries are position-independent executables (PIE), stripped, compressed, and signed with the official Chronolox release key.*
 
@@ -125,7 +129,7 @@ We are actively recruiting **beta testers** and **founding contributors** (marke
 - **Test the Protocol:** Request early beta access and receive a complimentary test Voucher code at [chronolox.com/community](https://chronolox.com/community).
 - **Contribute & Collaborate:** Explore founding contributor roles and our on-chain contributor framework at [chronolox.com/contributors](https://chronolox.com/contributors).
 - **Community Chat:** Join our public discussion channel on Telegram at [t.me/chronolox_chat](https://t.me/chronolox_chat).
-- **Feedback & Issues:** Submit usability feedback, documentation corrections, and bug reports through [specs issues](https://github.com/Chronolox/specs/issues) and [releases issues](https://github.com/Chronolox/releases/issues).
+- **Feedback & Issues:** Submit usability feedback, documentation corrections, and bug reports through [specs issues](https://github.com/Chronolox/specs/issues) or each application's repository.
 
 ---
 
