@@ -13,7 +13,7 @@ We welcome contributions across several domains:
    - Clarifying documentation, threat models, and architectural guides.
    - Identifying edge cases in time-lock recovery and enclave boundaries.
 
-2. **Releases & Verification ([`releases`](https://github.com/Chronolox/releases) repository):**
+2. **Application Distributions & Verification ([`heir`](https://github.com/Chronolox/heir), [`cli`](https://github.com/Chronolox/cli), [`secret-maker`](https://github.com/Chronolox/secret-maker), [`relayer`](https://github.com/Chronolox/relayer)):**
    - Testing binary verification on various OS platforms (Linux, macOS Apple Silicon / Intel, Windows).
    - Reporting packaging or installation anomalies.
    - Verifying GPG signatures and hash ledgers.
